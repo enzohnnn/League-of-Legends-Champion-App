@@ -45,5 +45,29 @@ enum VideogameVersion: String, Codable {
 }
 
 class API {
-    
+    func getChamps(completion: @escaping ([Champion]) -> ()) {
+        
+        // Create URL
+        let url = URL(string:"https://api.pandascore.co/lol/champions?token=ldenrhazMEtctsm_rWRftqtn1BvbZPDa22XL5AWjf2hW7e3AY7w")
+        guard let requestUrl = url else { fatalError()}
+        
+        // Create URL Request and set HEADER FOR KEY
+        var request = URLRequest(url: requestUrl)
+        request.httpMethod = "GET"
+        //request.setValue("a991c61cb57a4268947908f5c70bfefa", forHTTPHeaderField: "Ocp-Apim-Subscription-Key")
+        let task = URLSession.shared.dataTask(with: request) { (data, _, error) in
+            
+            // Check for error
+            if let error = error {
+                print("Error took place \(error)")
+                return
+            }
+            let posts = try! JSONDecoder() .decode([Champion].self, from: data!)
+            
+            DispatchQueue.main.async {
+                completion(posts)
+            }
+         }
+        task.resume()
+    }
 }
