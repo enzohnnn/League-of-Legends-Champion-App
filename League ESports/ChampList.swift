@@ -12,11 +12,15 @@ struct ChampList: View {
     
     var body: some View {
         VStack {
-            List(champList) { champ in
-                Text(champ.name)
-            }.onAppear() {
-                API().getChamps { champData in
-                    self.champList = champData
+            NavigationView {
+                List(champList) { champ in
+                    NavigationLink(destination: ChampionDetail()) {
+                        Text(champ.name)
+                    }
+                }.onAppear() {
+                    API().getChamps { champData in
+                        self.champList = champData
+                    }
                 }
             }
         }
