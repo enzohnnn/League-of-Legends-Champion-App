@@ -13,6 +13,7 @@
 		F56604F5259D617D00D15D6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56604F4259D617D00D15D6B /* Preview Assets.xcassets */; };
 		F5660500259D617E00D15D6B /* League_ESportsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56604FF259D617E00D15D6B /* League_ESportsTests.swift */; };
 		F566050B259D617E00D15D6B /* League_ESportsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F566050A259D617E00D15D6B /* League_ESportsUITests.swift */; };
+		F566051C259D65ED00D15D6B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F566051B259D65ED00D15D6B /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		F5660506259D617E00D15D6B /* League ESportsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "League ESportsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F566050A259D617E00D15D6B /* League_ESportsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = League_ESportsUITests.swift; sourceTree = "<group>"; };
 		F566050C259D617E00D15D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F566051B259D65ED00D15D6B /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				F56604ED259D617C00D15D6B /* League_ESportsApp.swift */,
 				F56604EF259D617C00D15D6B /* ContentView.swift */,
+				F566051B259D65ED00D15D6B /* Data.swift */,
 				F56604F1259D617D00D15D6B /* Assets.xcassets */,
 				F56604F6259D617D00D15D6B /* Info.plist */,
 				F56604F3259D617D00D15D6B /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F56604F0259D617C00D15D6B /* ContentView.swift in Sources */,
+				F566051C259D65ED00D15D6B /* Data.swift in Sources */,
 				F56604EE259D617C00D15D6B /* League_ESportsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
