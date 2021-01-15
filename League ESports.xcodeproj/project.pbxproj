@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F56093D525B1594500E0B9B7 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56093D425B1594500E0B9B7 /* RemoteImage.swift */; };
 		F56604EE259D617C00D15D6B /* League_ESportsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56604ED259D617C00D15D6B /* League_ESportsApp.swift */; };
 		F56604F0259D617C00D15D6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56604EF259D617C00D15D6B /* ContentView.swift */; };
 		F56604F2259D617D00D15D6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56604F1259D617D00D15D6B /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F56093D425B1594500E0B9B7 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		F56604EA259D617C00D15D6B /* League ESports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "League ESports.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56604ED259D617C00D15D6B /* League_ESportsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = League_ESportsApp.swift; sourceTree = "<group>"; };
 		F56604EF259D617C00D15D6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				F56604EF259D617C00D15D6B /* ContentView.swift */,
 				F566051B259D65ED00D15D6B /* Data.swift */,
 				F5660520259D9D9200D15D6B /* ChampList.swift */,
+				F56093D425B1594500E0B9B7 /* RemoteImage.swift */,
 				F5660525259DA41F00D15D6B /* ChampionDetail.swift */,
 				F56604F1259D617D00D15D6B /* Assets.xcassets */,
 				F56604F6259D617D00D15D6B /* Info.plist */,
@@ -271,6 +274,7 @@
 				F5660526259DA41F00D15D6B /* ChampionDetail.swift in Sources */,
 				F56604F0259D617C00D15D6B /* ContentView.swift in Sources */,
 				F566051C259D65ED00D15D6B /* Data.swift in Sources */,
+				F56093D525B1594500E0B9B7 /* RemoteImage.swift in Sources */,
 				F56604EE259D617C00D15D6B /* League_ESportsApp.swift in Sources */,
 				F5660521259D9D9200D15D6B /* ChampList.swift in Sources */,
 			);
