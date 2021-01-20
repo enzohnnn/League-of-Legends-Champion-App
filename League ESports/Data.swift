@@ -35,13 +35,7 @@ struct Champion: Codable, Identifiable {
 }
 
 enum VideogameVersion: String, Codable {
-    case the10191 = "10.19.1"
-    case the10201 = "10.20.1"
-    case the10211 = "10.21.1"
-    case the10221 = "10.22.1"
-    case the10231 = "10.23.1"
-    case the10241 = "10.24.1"
-    case the10251 = "10.25.1"
+    case the1111 = "11.1.1"
 }
 
 class API {

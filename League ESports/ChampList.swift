@@ -14,7 +14,7 @@ struct ChampList: View {
         VStack {
             NavigationView {
                 List(champList) { champ in
-                    NavigationLink(destination: ChampionDetail()) {
+                    NavigationLink(destination: ChampionDetail(champData: champ)) {
                         Text(champ.name)
                     }
                 }.onAppear() {
