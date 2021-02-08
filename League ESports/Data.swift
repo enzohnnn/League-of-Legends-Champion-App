@@ -22,7 +22,7 @@ struct Champion: Codable, Identifiable {
     let mp, mpperlevel, mpregen, mpregenperlevel: Double
     let name: String
     let spellblock, spellblockperlevel: Double
-    let videogameVersions: [VideogameVersion]
+    //let videogameVersions: [VideogameVersion]
 
     enum CodingKeys: String, CodingKey {
         case armor, armorperlevel, attackdamage, attackdamageperlevel, attackrange, attackspeedperlevel
@@ -30,14 +30,14 @@ struct Champion: Codable, Identifiable {
         case crit, critperlevel, hp, hpperlevel, hpregen, hpregenperlevel, id
         case imageURL = "image_url"
         case movespeed, mp, mpperlevel, mpregen, mpregenperlevel, name, spellblock, spellblockperlevel
-        case videogameVersions = "videogame_versions"
+        //case videogameVersions = "videogame_versions"
     }
 }
-
+/*
 enum VideogameVersion: String, Codable {
     case the1111 = "11.1.1"
 }
-
+*/
 class API {
     func getChamps(completion: @escaping ([Champion]) -> ()) {
         
